@@ -59,3 +59,7 @@ console.log(inc);
 // let catName = "Meow!";
 // console.log(catName);
 
+const A = 15;
+const B = 10;
+let C = A + B; 
+console.log(C);
