@@ -1,8 +1,14 @@
+let lala = 15;
+lala--;
+console.log(lala);
 
+let lolo = 3.0; 
+let koko = 4.5;
+console.log(lolo*koko);
+console.log(lolo/koko);
 
-
-
-
+let jojo = 10;
+console.log(lala%jojo);
 
 
 
