@@ -10,8 +10,12 @@ console.log(lolo/koko);
 let jojo = 10;
 console.log(lala%jojo);
 
+let hoho ;
+hoho = lolo * koko % jojo;
+console.log(hoho);
 
-
+hoho = (lala - lolo + koko)/koko;
+console.log(hoho);
 
 
 // Task 1
