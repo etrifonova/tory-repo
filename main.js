@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 // Task 1
 
 // Declare two const variables numberOne and numberTwo and initialize them to any integers smaller than 20.
@@ -14,26 +24,23 @@
 // In the next line, redefine (переопредели) the resultVarTwo variable by making it the product of numberThree and numberFour.
 // In the next line, redefine (переопредели) the resultVarTwo variable again by making it the difference (разность) between resultVarTwo (здесь нет опечатки; то есть берем результат прошлого действия resultVarTwo и используем его в переопределении его же) and numberFive.
 
-const numberOne = 10;
-const numberTwo = 15;
-let resultVarOne = numberTwo + numberOne;
-console.log(resultVarOne)    
-resultVarOne = numberOne * numberTwo;
-console.log(resultVarOne)    
+// const numberOne = 10;
+// const numberTwo = 15;
+// let resultVarOne = numberTwo + numberOne;
+// console.log(resultVarOne)    
+// resultVarOne = numberOne * numberTwo;
+// console.log(resultVarOne)    
 
 
-const numberThree = 40;
-const numberFour = 50;
-const numberFive = 30;
-let resultVarTwo = numberFive + numberFour + numberThree;
-console.log(resultVarTwo);
-resultVarTwo = numberThree * numberFour;
-console.log(resultVarTwo);
-resultVarTwo = resultVarTwo - numberFive;
-console.log(resultVarTwo);
-
-
-
+// const numberThree = 40;
+// const numberFour = 50;
+// const numberFive = 30;
+// let resultVarTwo = numberFive + numberFour + numberThree;
+// console.log(resultVarTwo);
+// resultVarTwo = numberThree * numberFour;
+// console.log(resultVarTwo);
+// resultVarTwo = resultVarTwo - numberFive;
+// console.log(resultVarTwo);
 
 
 
@@ -44,27 +51,30 @@ console.log(resultVarTwo);
 
 
 
-const ELEMENT_1 = 5;
-const ELEMENT_2 = 7;
+
+
+
+// const ELEMENT_1 = 5;
+// const ELEMENT_2 = 7;
 
 // ADDITION (+)
-const SUM = ELEMENT_1 + ELEMENT_2;
-console.log(SUM); 
+// const SUM = ELEMENT_1 + ELEMENT_2;
+// console.log(SUM); 
 // SUBTRACTION (-)
-const DIFFERENCE = ELEMENT_2 - ELEMENT_1;
-console.log(DIFFERENCE); 
+// const DIFFERENCE = ELEMENT_2 - ELEMENT_1;
+// console.log(DIFFERENCE); 
 
 // MULTIPLICATION (*)
-const PRODUCT = ELEMENT_1 * ELEMENT_2;
-console.log(PRODUCT);
+// const PRODUCT = ELEMENT_1 * ELEMENT_2;
+// console.log(PRODUCT);
 // DIVISION (/)
-const QUOTIENT = PRODUCT / ELEMENT_1;
-console.log(QUOTIENT);
+// const QUOTIENT = PRODUCT / ELEMENT_1;
+// console.log(QUOTIENT);
 
 // INCREMENTATION
-let inc = 10;
-inc++
-console.log(inc);
+// let inc = 10;
+// inc++
+// console.log(inc);
 
 
 // var a;
