@@ -42,9 +42,14 @@
 // resultVarTwo = resultVarTwo - numberFive;
 // console.log(resultVarTwo);
 
+let myVar = 11;
+myVar--;
+console.log(myVar);
 
-
-
+let myDecimal = 5.74698;
+let randomNumber = 2;
+let outCome = myDecimal / randomNumber;
+console.log(outCome);
 
 
 
