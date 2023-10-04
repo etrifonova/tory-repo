@@ -1,11 +1,22 @@
 // Homework for October 5
 
 // Task 1. 
+const NOTOK = 20; //вроде конст будет выводить ошибку и лучше будет let, но я сделала как в задании
+NOTOK--;
+console.log(NOTOK); 
 // - Declare a const variable and write its name in the upper case (e.g. const MY_VAR) and initialize it to an integer in the range from 10 to 50.
 // - Decrement the const variable by 1 using the shorthand way (короткий способ)
 // - console.log the const variable.
 
 // Task 2. 
+const OKOK = 30;
+const OK = 25;
+OKOK--;
+let result = OKOK % OK;
+console.log(result);
+result = OK % OKOK;
+console.log(result);
+
 // - Declare two const variables and write their names in the upper case (e.g. const VAR_ONE) and initialize them to integers in the range from 10 to 50.
 // - Decrement the first const variable by 1 using the shorthand way (короткий способ)
 // - Declare a let variable and write its name in the lower case (e.g. let result1_var) and assign it to the remainder of the first const variable divided by the second const variable.
@@ -13,7 +24,13 @@
 // - Reassign the let variable to the remainder of the second const variable divided by the first const variable.
 // - console.log the let variable.
 
-
+const KOKO = 30;
+const NOTKOKO = 20;
+const NOTOKOK = 40;
+let result_to = KOKO * NOTKOKO;
+console.log(result_to);
+result_to = result_to /NOTOKOK;
+console.log(result_to); 
 // Task 3. 
 // - Declare three const variables and write their names in the upper case (e.g. const VAR_FOUR) and initialize them to integers in the range from 10 to 50.
 // - Declare a let variable and write its name in the lower case (e.g. let result2_var) and assign it to the product of the first and second const variables.
