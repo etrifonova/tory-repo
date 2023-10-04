@@ -1,21 +1,45 @@
-let lala = 15;
-lala--;
-console.log(lala);
+// Homework for October 5
 
-let lolo = 3.0; 
-let koko = 4.5;
-console.log(lolo*koko);
-console.log(lolo/koko);
+// Task 1. 
+// - Declare a const variable and write its name in the upper case (e.g. const MY_VAR) and initialize it to an integer in the range from 10 to 50.
+// - Decrement the const variable by 1 using the shorthand way (короткий способ)
+// - console.log the const variable.
 
-let jojo = 10;
-console.log(lala%jojo);
+// Task 2. 
+// - Declare two const variables and write their names in the upper case (e.g. const VAR_ONE) and initialize them to integers in the range from 10 to 50.
+// - Decrement the first const variable by 1 using the shorthand way (короткий способ)
+// - Declare a let variable and write its name in the lower case (e.g. let result1_var) and assign it to the remainder of the first const variable divided by the second const variable.
+// - console.log the let variable.
+// - Reassign the let variable to the remainder of the second const variable divided by the first const variable.
+// - console.log the let variable.
 
-let hoho ;
-hoho = lolo * koko % jojo;
-console.log(hoho);
 
-hoho = (lala - lolo + koko)/koko;
-console.log(hoho);
+// Task 3. 
+// - Declare three const variables and write their names in the upper case (e.g. const VAR_FOUR) and initialize them to integers in the range from 10 to 50.
+// - Declare a let variable and write its name in the lower case (e.g. let result2_var) and assign it to the product of the first and second const variables.
+// - console.log the let variable.
+// - Reassign the let variable to the remainder of the let variable (и слева, и справа от = будет одна и та же переменная) divided by the third const variable.
+// - console.log the let variable.
+
+
+// let lala = 15;
+// lala--;
+// console.log(lala);
+
+// let lolo = 3.0; 
+// let koko = 4.5;
+// console.log(lolo*koko);
+// console.log(lolo/koko);
+
+// let jojo = 10;
+// console.log(lala%jojo);
+
+// let hoho ;
+// hoho = lolo * koko % jojo;
+// console.log(hoho);
+
+// hoho = (lala - lolo + koko)/koko;
+// console.log(hoho);
 
 
 // Task 1
