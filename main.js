@@ -19,20 +19,28 @@ console.log(hoho);
 
 
 // Task 1
-
+const numberOne =15;
+const numberTwo =16;
+let resultVarOne = numberTwo + numberOne;
+resultVarOne = numberOne + numberTwo; // как я поняла, я должна была переопределить resultVarOne, а не resultVar, указанный в задании
 // Declare two const variables numberOne and numberTwo and initialize them to any integers smaller than 20.
 // Declare another variable resultVarOne with let and initialize it to the sum of the previous two variables).
 // In the next line, redefine (переопредели) the resultVar variable by making it the product of numberOne and numberTwo.
 
-
-
-
 // Task 2
+
+const numberThree = 25;
+const numberFour = 26;
+const numberFive =30;
+let resultVarTwo = numberFive + numberFour + numberThree;
+resultVarTwo = numberThree * numberFour;
+resultVarTwo -= numberFive;
 
 // Declare three const variables numberThree, numberFour and numberFive and initialize them to any integers greater than (больше чем) 20.
 // Declare another variable resultVarTwo with let and initialize it to the sum of the previous three variables).
 // In the next line, redefine (переопредели) the resultVarTwo variable by making it the product of numberThree and numberFour.
-// In the next line, redefine (переопредели) the resultVarTwo variable again by making it the difference (разность) between resultVarTwo (здесь нет опечатки; то есть берем результат прошлого действия resultVarTwo и используем его в переопределении его же) and numberFive.
+// In the next line, redefine (переопредели) the resultVarTwo variable again by making it the difference (разность) between resultVarTwo (здесь нет опечатки; 
+//то есть берем результат прошлого действия resultVarTwo и используем его в переопределении его же) and numberFive.
 
 // const numberOne = 10;
 // const numberTwo = 15;
