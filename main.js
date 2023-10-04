@@ -1,7 +1,7 @@
 // Homework for October 5
 
 // Task 1. 
-const NOTOK = 20; //вроде конст будет выводить ошибку и лучше будет let, но я сделала как в задании
+let NOTOK = 20; //вроде конст будет выводить ошибку и лучше будет let, но я сделала как в задании
 NOTOK--;
 console.log(NOTOK); 
 // - Declare a const variable and write its name in the upper case (e.g. const MY_VAR) and initialize it to an integer in the range from 10 to 50.
@@ -9,7 +9,7 @@ console.log(NOTOK);
 // - console.log the const variable.
 
 // Task 2. 
-const OKOK = 30;
+let OKOK = 30;
 const OK = 25;
 OKOK--;
 let result = OKOK % OK;
