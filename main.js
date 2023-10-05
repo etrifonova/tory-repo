@@ -1,4 +1,38 @@
-// Homework for October 5
+let a = 3;
+let b = 17;
+let c = 20;
+a += 12;
+b += 9;
+c += 7;
+console.log(a);
+console.log(b);
+console.log(c);
+
+a -= 6;
+b -= 15;
+c -= 1; 
+console.log(a);
+console.log(b);
+console.log(c);
+
+a *= 5;
+b *= 3;
+c *= 10;
+console.log(a);
+console.log(b);
+console.log(c);
+
+a /= 12;
+b /= 4;
+c /= 11;
+console.log(a);
+console.log(b);
+console.log(c);
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+console.log(myStr);
+
+
 
 // Task 1. 
 let NOTOK = 20; //вроде конст будет выводить ошибку и лучше будет let, но я сделала как в задании
