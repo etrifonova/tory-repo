@@ -29,9 +29,9 @@ const NOTKOKO = 20;
 const NOTOKOK = 40;
 let result_to = KOKO * NOTKOKO;
 console.log(result_to);
-result_to = result_to /NOTOKOK;
+result_to = result_to / NOTOKOK;
 console.log(result_to); 
-// Task 3. 
+// Task 3. !
 // - Declare three const variables and write their names in the upper case (e.g. const VAR_FOUR) and initialize them to integers in the range from 10 to 50.
 // - Declare a let variable and write its name in the lower case (e.g. let result2_var) and assign it to the product of the first and second const variables.
 // - console.log the let variable.
