@@ -38,9 +38,9 @@ console.log(myStr);
 let NOTOK = 20; //вроде конст будет выводить ошибку и лучше будет let, но я сделала как в задании
 NOTOK--;
 console.log(NOTOK); 
-// - Declare a const variable and write its name in the upper case (e.g. const MY_VAR) and initialize it to an integer in the range from 10 to 50.
-// - Decrement the const variable by 1 using the shorthand way (короткий способ)
-// - console.log the const variable.
+// - Declare a let variable and write its name in the lower case (e.g. let my_var) and initialize it to an integer in the range from 10 to 50.
+// - Decrement the let variable by 1 using the shorthand way (короткий способ)
+// - console.log the let variable.
 
 // Task 2. 
 let OKOK = 30;
@@ -52,7 +52,6 @@ result = OK % OKOK;
 console.log(result);
 
 // - Declare two const variables and write their names in the upper case (e.g. const VAR_ONE) and initialize them to integers in the range from 10 to 50.
-// - Decrement the first const variable by 1 using the shorthand way (короткий способ)
 // - Declare a let variable and write its name in the lower case (e.g. let result1_var) and assign it to the remainder of the first const variable divided by the second const variable.
 // - console.log the let variable.
 // - Reassign the let variable to the remainder of the second const variable divided by the first const variable.
