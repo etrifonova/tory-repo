@@ -1,55 +1,67 @@
-let a = 3;
-let b = 17;
-let c = 20;
-a += 12;
-b += 9;
-c += 7;
-console.log(a);
-console.log(b);
-console.log(c);
 
-a -= 6;
-b -= 15;
-c -= 1; 
-console.log(a);
-console.log(b);
-console.log(c);
+// October 20
 
-a *= 5;
-b *= 3;
-c *= 10;
-console.log(a);
-console.log(b);
-console.log(c);
+// Task 1. Assign the following three lines of text into the single variable myStr using escape sequences.
 
-a /= 12;
-b /= 4;
-c /= 11;
-console.log(a);
-console.log(b);
-console.log(c);
+// FirstLine
+//     \SecondLine
+// ThirdLine
 
-const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
-console.log(myStr);
+
+
+// let a = 3;
+// let b = 17;
+// let c = 20;
+// a += 12;
+// b += 9;
+// c += 7;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// a -= 6;
+// b -= 15;
+// c -= 1; 
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// a *= 5;
+// b *= 3;
+// c *= 10;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// a /= 12;
+// b /= 4;
+// c /= 11;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+// const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+// console.log(myStr);
 
 
 
 // Task 1. 
-let NOTOK = 20; //вроде конст будет выводить ошибку и лучше будет let, но я сделала как в задании
-NOTOK--;
-console.log(NOTOK); 
+// let NOTOK = 20; 
+//вроде конст будет выводить ошибку и лучше будет let, но я сделала как в задании
+// NOTOK--;
+// console.log(NOTOK); 
 // - Declare a let variable and write its name in the lower case (e.g. let my_var) and initialize it to an integer in the range from 10 to 50.
 // - Decrement the let variable by 1 using the shorthand way (короткий способ)
 // - console.log the let variable.
 
 // Task 2. 
-let OKOK = 30;
-const OK = 25;
-OKOK--;
-let result = OKOK % OK;
-console.log(result);
-result = OK % OKOK;
-console.log(result);
+// let OKOK = 30;
+// const OK = 25;
+// OKOK--;
+// let result = OKOK % OK;
+// console.log(result);
+// result = OK % OKOK;
+// console.log(result);
 
 // - Declare two const variables and write their names in the upper case (e.g. const VAR_ONE) and initialize them to integers in the range from 10 to 50.
 // - Declare a let variable and write its name in the lower case (e.g. let result1_var) and assign it to the remainder of the first const variable divided by the second const variable.
@@ -57,13 +69,13 @@ console.log(result);
 // - Reassign the let variable to the remainder of the second const variable divided by the first const variable.
 // - console.log the let variable.
 
-const KOKO = 30;
-const NOTKOKO = 20;
-const NOTOKOK = 40;
-let result_to = KOKO * NOTKOKO;
-console.log(result_to);
-result_to = result_to / NOTOKOK;
-console.log(result_to); 
+// const KOKO = 30;
+// const NOTKOKO = 20;
+// const NOTOKOK = 40;
+// let result_to = KOKO * NOTKOKO;
+// console.log(result_to);
+// result_to = result_to / NOTOKOK;
+// console.log(result_to); 
 // Task 3. !
 // - Declare three const variables and write their names in the upper case (e.g. const VAR_FOUR) and initialize them to integers in the range from 10 to 50.
 // - Declare a let variable and write its name in the lower case (e.g. let result2_var) and assign it to the product of the first and second const variables.
@@ -93,22 +105,23 @@ console.log(result_to);
 
 
 // Task 1
-const numberOne =15;
-const numberTwo =16;
-let resultVarOne = numberTwo + numberOne;
-resultVarOne = numberOne + numberTwo; // как я поняла, я должна была переопределить resultVarOne, а не resultVar, указанный в задании
+// const numberOne =15;
+// const numberTwo =16;
+// let resultVarOne = numberTwo + numberOne;
+// resultVarOne = numberOne + numberTwo; 
+// как я поняла, я должна была переопределить resultVarOne, а не resultVar, указанный в задании
 // Declare two const variables numberOne and numberTwo and initialize them to any integers smaller than 20.
 // Declare another variable resultVarOne with let and initialize it to the sum of the previous two variables).
 // In the next line, redefine (переопредели) the resultVar variable by making it the product of numberOne and numberTwo.
 
 // Task 2
 
-const numberThree = 25;
-const numberFour = 26;
-const numberFive =30;
-let resultVarTwo = numberFive + numberFour + numberThree;
-resultVarTwo = numberThree * numberFour;
-resultVarTwo -= numberFive;
+// const numberThree = 25;
+// const numberFour = 26;
+// const numberFive =30;
+// let resultVarTwo = numberFive + numberFour + numberThree;
+// resultVarTwo = numberThree * numberFour;
+// resultVarTwo -= numberFive;
 
 // Declare three const variables numberThree, numberFour and numberFive and initialize them to any integers greater than (больше чем) 20.
 // Declare another variable resultVarTwo with let and initialize it to the sum of the previous three variables).
@@ -134,14 +147,14 @@ resultVarTwo -= numberFive;
 // resultVarTwo = resultVarTwo - numberFive;
 // console.log(resultVarTwo);
 
-let myVar = 11;
-myVar--;
-console.log(myVar);
+// let myVar = 11;
+// myVar--;
+// console.log(myVar);
 
-let myDecimal = 5.74698;
-let randomNumber = 2;
-let outCome = myDecimal / randomNumber;
-console.log(outCome);
+// let myDecimal = 5.74698;
+// let randomNumber = 2;
+// let outCome = myDecimal / randomNumber;
+// console.log(outCome);
 
 
 
