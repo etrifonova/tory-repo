@@ -1,36 +1,74 @@
-let a = 3;
-let b = 17;
-let c = 20;
-a += 12;
-b += 9;
-c += 7;
-console.log(a);
-console.log(b);
-console.log(c);
+const  DICAPRIO = "DICAPRIO";
+console.log(DICAPRIO.length);
+console.log(DICAPRIO[0]);  
+const LEONARDO = 'LEONARDO';
+let sum = DICAPRIO.length + LEONARDO.length;
+console.log(sum);
+sum /=  DICAPRIO.length;
+console.log(sum);
+sum *= LEONARDO.length;
+console.log(sum);
+//Assign the following three lines of text into the single variable myStr using escape sequences. 
+ 
+// FirstLine 
+//     \SecondLine 
+// ThirdLinelet
+//let myStry = 'FirstLine\n\t\\SecondLine\nThirdLinelet';
+// console.log(myStry) ;
+// myStry = 'This is the start. ' + 'This is the end.';
+// console.log(myStry) ;
+// myStry += ' P.S. this is the string.'
+// console.log(myStry) ;
+// let myName = 'Tory';
+// myStry = 'My name is ' + myName + ' and I am well!'
+// console.log(myStry)
+// let someAdjective = 'cool and awesome!';
+// myStry = "learning to code is ";
+// myStry += someAdjective;
+// console.log(myStry);
+// let lastNameLength = 0;
+// const lastName = 'Shafieva';
+// lastNameLength = lastName.length;
+// console.log(lastNameLength);
+// console.log(myName.length + lastName.length);
+// console.log(lastName.length % myName.length);
+// let firstLetterOfLastName = lastName[0];
+// console.log(firstLetterOfLastName); 
+// let FourthLetter = lastName[3];
+// console.log(FourthLetter);
+// a = 3;
+// let b = 17;
+// let c = 20;
+// a += 12;
+// b += 9;
+// c += 7;
+// console.log(a);
+// console.log(b);
+// console.log(c);
 
-a -= 6;
-b -= 15;
-c -= 1; 
-console.log(a);
-console.log(b);
-console.log(c);
+// a -= 6;
+// b -= 15;
+// c -= 1; 
+// console.log(a);
+// console.log(b);
+// console.log(c);
 
-a *= 5;
-b *= 3;
-c *= 10;
-console.log(a);
-console.log(b);
-console.log(c);
+// a *= 5;
+// b *= 3;
+// c *= 10;
+// console.log(a);
+// console.log(b);
+// console.log(c);
 
-a /= 12;
-b /= 4;
-c /= 11;
-console.log(a);
-console.log(b);
-console.log(c);
+// a /= 12;
+// b /= 4;
+// c /= 11;
+// console.log(a);
+// console.log(b);
+// console.log(c);
 
-const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
-console.log(myStr);
+// const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+// console.log(myStr);
 
 
 
