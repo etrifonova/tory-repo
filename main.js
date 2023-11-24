@@ -1,28 +1,39 @@
-const  DICAPRIO = "DICAPRIO";
-console.log(DICAPRIO.length);
-console.log(DICAPRIO[0]);  
-const LEONARDO = 'LEONARDO';
-let sum = DICAPRIO.length + LEONARDO.length;
-console.log(sum);
-sum /=  DICAPRIO.length;
-console.log(sum);
-sum *= LEONARDO.length;
-console.log(sum);
-let myStr = "jello world";
-myStr[0] = "h";
-//console.log(myStr[]);
-const fourthLetter = myStr[3];
-console.log(fourthLetter);
-const lastLetter = myStr[myStr.length - 1];
-console.log(lastLetter);
-const fifthToLastLetter = myStr[myStr.length - 5];
-console.log(fifthToLastLetter);
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly"; 
-const wordBlanks = "This " + myAdjective + " " + myNoun + " " + myVerb + " very " + myAdverb + ".";
-console.log(wordBlanks);
+const A = "Beautifully";
+console.log(A[A.length - 7]) ;
+const B = "dressed";
+const C = "Lily";
+console.log(C + " " + B + " " + A + ".")
+let Ab = [["Cappuccino", 350],["Raf", 380],["Latte", 200]];
+console.log(Ab[1][1])
+console.log(Ab[0][1]-Ab[2][1]);
+Ab[2][0] = "Mocaccino";
+console.log(Ab);
+
+// const  DICAPRIO = "DICAPRIO";
+// console.log(DICAPRIO.length);
+// console.log(DICAPRIO[0]);  
+// const LEONARDO = 'LEONARDO';
+// let sum = DICAPRIO.length + LEONARDO.length;
+// console.log(sum);
+// sum /=  DICAPRIO.length;
+// console.log(sum);
+// sum *= LEONARDO.length;
+// console.log(sum);
+// let myStr = "jello world";
+// myStr[0] = "h";
+// //console.log(myStr[]);
+// const fourthLetter = myStr[3];
+// console.log(fourthLetter);
+// const lastLetter = myStr[myStr.length - 1];
+// console.log(lastLetter);
+// const fifthToLastLetter = myStr[myStr.length - 5];
+// console.log(fifthToLastLetter);
+// const myNoun = "dog";
+// const myAdjective = "big";
+// const myVerb = "ran";
+// const myAdverb = "quickly"; 
+// const wordBlanks = "This " + myAdjective + " " + myNoun + " " + myVerb + " very " + myAdverb + ".";
+// console.log(wordBlanks);
 
 //Assign the following three lines of text into the single variable myStr using escape sequences. 
  
