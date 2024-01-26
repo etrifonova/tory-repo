@@ -1,0 +1,20 @@
+
+.container {
+  background: #f8f8f8;
+}
+
+ul {
+  list-style: none;
+  gap: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+li {
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  height:72px; 
+  width: 240px
+}
