@@ -1,0 +1,17 @@
+.main-container {
+background-color: cornsilk;
+
+}
+.display-container {
+    display: flex;
+    justify-content: space-between;
+}
+.display-type {
+    background-color: blueviolet;
+    width: 33%;
+}
+
+p {
+    background-color: aqua;
+    width: 33%;
+}
