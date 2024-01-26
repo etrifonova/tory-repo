@@ -7,8 +7,18 @@ let Ab = [["Cappuccino", 350],["Raf", 380],["Latte", 200]];
 console.log(Ab[1][1])
 console.log(Ab[0][1]-Ab[2][1]);
 Ab[2][0] = "Mocaccino";
+let coffee = "espresso"; 
+let price = 150;
+let H = [];
+H.push(coffee, price);
+Ab.push(H);
 console.log(Ab);
-
+let newPrice = Ab[1].pop();
+//console.log(newPrice);
+let newMenu = Ab[2].shift();
+console.log(newMenu);
+let J = "Flat white";
+Ab[2].unshift(J);
 // const  DICAPRIO = "DICAPRIO";
 // console.log(DICAPRIO.length);
 // console.log(DICAPRIO[0]);  
