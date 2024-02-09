@@ -1,0 +1,54 @@
+.container-1 div {
+    display: inline;
+}
+
+.container-2 span {
+    display: block;
+}
+
+.container-3 div {
+    display: inline-block;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-5 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container-6 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: stretch;
+
+}
+.logout { 
+    margin-right: auto;
+}
+.container-6 div {
+    width:  100px;
+}
+
+/* comment out - вынести в комментарий
+margin: 20px 30px 20px 30px;
+margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+main axis - главная ось (horizontal when the flex-direction is row)
+cross axis - поперечная ось (vertical when the flex-direction is row)
+display - отображение
+an element with the display value of block occupies (занимает) the entire width of the line (строчка)
+
+*/
+/* .container-4 - selector
+display - property
+flex - value */
+/* the display property can either change the display (or behavior) of the element itself or the display of its children (items) */
