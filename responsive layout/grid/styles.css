@@ -1,0 +1,88 @@
+/* color variables */
+:root {
+  --color-background: #fbf7f5;
+  --color-1: #b9eed9;
+  --color-2: #73d2ab;
+  --color-3: #3eb488;
+  --color-4: #0e4d92;
+  --color-5: #269ed3;
+  --color-6:  #48cbe6;
+  --color-spacer: #161925;
+  --color-text: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background-color: #fbf7f5;
+  margin: 10px;
+  color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: var(--color-spacer);
+}
+
+hr {
+    height: 10px;
+    background-color: var(--color-4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section {
+  margin: 2rem 3rem;
+}
+
+.wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1rem 0
+}
+
+.wrapper > div:first-child {
+  background-color: var(--color-1);
+}
+
+.wrapper > div:nth-child(2) {
+  background-color: var(--color-2);
+}
+
+.wrapper > div:nth-child(3) {
+  background-color: var(--color-3);
+}
+
+.wrapper > div:nth-child(4) {
+  background-color: var(--color-4);
+}
+
+.wrapper > div:nth-child(5) {
+  background-color: var(--color-5);
+}
+
+.wrapper > div:nth-child(6) {
+  background-color: var(--color-6);
+}
+
+/* container 1 task
+1) Give the wrapper a display of grid.
+2) Set 2 columns, with the first item taking 200px and the second item - the rest of space.
+3) Set 3 rows, with the first item taking 150px in height, the second item - twice as much, and the third item - three times as much.
+4) Set a spacing of 5px between the columns and rows.
+*/
+
+/* container task 2
+1) Give the wrapper a display of grid.
+2) Using a shorthand, give the grid 3 rows with a height of 100px and 2 columns with an equal width for each column
+*/
