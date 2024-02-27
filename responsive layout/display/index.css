@@ -62,3 +62,7 @@ html, body {
     background-color: #fbf7f5;
     /* display: none; */
 }
+span {
+    display: inline;
+    flex-direction:column;
+}
