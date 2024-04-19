@@ -1,25 +1,40 @@
-const A = "Beautifully";
-console.log(A[A.length - 7]) ;
-const B = "dressed";
-const C = "Lily";
-console.log(C + " " + B + " " + A + ".")
-let Ab = [["Cappuccino", 350],["Raf", 380],["Latte", 200]];
-console.log(Ab[1][1])
-console.log(Ab[0][1]-Ab[2][1]);
-Ab[2][0] = "Mocaccino";
-let coffee = "espresso"; 
-let price = 150;
-let H = [];
-H.push(coffee, price);
-Ab.push(H);
-console.log(Ab);
-let newPrice = Ab[1].pop();
-//console.log(newPrice);
-let newMenu = Ab[2].shift();
-console.log(newMenu);
-let J = "Flat white";
-Ab[2].unshift(J);
-// const  DICAPRIO = "DICAPRIO";
+let a = 1
+
+function myFumk(str) {
+    x = 2;
+    b = 3;
+    console.log(str)
+} 
+
+const myStr = "debil"
+
+myFumk(myStr)
+
+
+
+
+// const A = "Beautifully";
+// console.log(A[A.length - 7]) ;
+// const B = "dressed";
+// const C = "Lily";
+// console.log(C + " " + B + " " + A + ".")
+// let Ab = [["Cappuccino", 350],["Raf", 380],["Latte", 200]];
+// console.log(Ab[1][1])
+// console.log(Ab[0][1]-Ab[2][1]);
+// Ab[2][0] = "Mocaccino";
+// let coffee = "espresso"; 
+// let price = 150;
+// let H = [];
+// H.push(coffee, price);
+// Ab.push(H);
+// console.log(Ab);
+// let newPrice = Ab[1].pop();
+// //console.log(newPrice);
+// let newMenu = Ab[2].shift();
+// console.log(newMenu);
+// let J = "Flat white";
+// Ab[2].unshift(J);
+// // const  DICAPRIO = "DICAPRIO";
 // console.log(DICAPRIO.length);
 // console.log(DICAPRIO[0]);  
 // const LEONARDO = 'LEONARDO';
