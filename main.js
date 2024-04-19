@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 let a = 1
 
 function myFumk(str) {
@@ -13,6 +14,38 @@ myFumk(myStr)
 
 
 
+=======
+// const myList = [
+//     ["choco bar", 15],
+//     ["lays", 15],
+//     ["pizza", 4],
+//     ["coke", 5],
+//     ["water", 10]
+// ]
+// myList.push(["cake", 1])
+// console.log(myList)
+// myList.shift()
+// console.log(myList)
+let w 
+let z = "hi";
+let x = " world";
+function funk(a, b ) {
+    // console.log(a , b)
+    // return w= a+b;
+    w= a+b;
+    return w
+}
+funk(z, x)
+console.log(w)
+// const array_1 = [1, 2, "abc", "zyx", 7];
+// let var_1 = array_1[2];
+// console.log(var_1)
+// let var_difference = array_1.length - var_1.length;
+// console.log(var_difference)
+
+// let dawd = array_1.push("abc")
+// console.log(array_1)
+>>>>>>> Stashed changes
 // const A = "Beautifully";
 // console.log(A[A.length - 7]) ;
 // const B = "dressed";
@@ -34,7 +67,11 @@ myFumk(myStr)
 // console.log(newMenu);
 // let J = "Flat white";
 // Ab[2].unshift(J);
+<<<<<<< Updated upstream
 // // const  DICAPRIO = "DICAPRIO";
+=======
+// const  DICAPRIO = "DICAPRIO";
+>>>>>>> Stashed changes
 // console.log(DICAPRIO.length);
 // console.log(DICAPRIO[0]);  
 // const LEONARDO = 'LEONARDO';
