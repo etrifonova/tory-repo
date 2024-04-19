@@ -12,12 +12,15 @@ statement
 let z = 0;
 
 function checkScope(a) {
-  a++;
+  a++
   return a;
+  // console.log(a);
+ 
 }
 
 checkScope(z);
 console.log(z);
+// console.log(checkScope(z));
 // Function arguments (parameters) work as local variables inside functions.
 
 myFunction();
