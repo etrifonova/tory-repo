@@ -16,6 +16,10 @@ function oddCount(n) {
     }
   }
 
+  // pass a test
+  // odd numbers четные числа
+  // even numbers нечетные числа
+
 
 // TASK 2
 // You're at the zoo... all the meerkats look weird. Something has gone terribly wrong - someone has gone and switched their heads and tails around!
@@ -23,8 +27,11 @@ function oddCount(n) {
 // Same goes for all the other arrays/lists that you will get in the tests: you have to change the element positions with the same exact logics
 // Simples!
 function fixTheMeerkat(arr) {
-  arr.reverse(); 
-   return arr;
- }
+   return arr.reverse();
+}
+
+console.log(fixTheMeerkat([1, 2, 3, 4, 5, 6]))
+
+
 
 //  TASK 3
